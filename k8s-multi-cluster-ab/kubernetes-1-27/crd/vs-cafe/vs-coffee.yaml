@@ -10,10 +10,14 @@ spec:
   host: cafe.example.com
   pools:
     - path: /coffee
-      service: coffee-svc
+      service: coffee-svc-a
       servicePort: 8080
+      weight: 80
+      alternateBackends:
+        - service: coffee-svc-b
+          weight: 20
       extendedServiceReferences:
         - clusterName: kubeconfig-1-28
           namespace: cafe
           port: 8080
-          serviceName: coffee-svc
+          serviceName: coffee-svc-b
