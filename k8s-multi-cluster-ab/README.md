@@ -10,6 +10,10 @@ F5 BIG-IP as Kubernetes gateway will distribute the traffic to the clusters. Thi
 
 ![pool](https://github.com/mdditt2000/multi-cluster/blob/main/k8s-multi-cluster-ab/diagram/2023-11-17_09-19-19.png)
 
+Diagram below show the weighted distribution of traffic between the clusters. **80%** more traffic to the cluster **Kubernetes 1.27**
+
+![pool](https://github.com/mdditt2000/multi-cluster/blob/main/k8s-multi-cluster-ab/diagram/2023-11-17_09-39-12.png)
+
 The link below explain how setup the Calico CNI for the Multi-Cluster Kubernetes environment
 
 * Configuring Calico [clouddocs](https://clouddocs.f5.com/containers/latest/userguide/calico-config.html)
