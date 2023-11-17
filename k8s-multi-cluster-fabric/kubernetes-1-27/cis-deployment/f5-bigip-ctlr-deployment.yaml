@@ -43,7 +43,7 @@ spec:
               "--bigip-password=$(BIGIP_PASSWORD)",
               "--bigip-url=192.168.200.60",
               "--bigip-partition=k8s",
-              "--namespace=cafe",
+              "--namespace=nginx-gateway",
               "--pool-member-type=cluster",
               "--log-level=DEBUG",
               "--insecure=true",

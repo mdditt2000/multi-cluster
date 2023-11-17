@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/instance: nginx-gateway
     app.kubernetes.io/version: "edge"
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app.kubernetes.io/name: nginx-gateway
     app.kubernetes.io/instance: nginx-gateway

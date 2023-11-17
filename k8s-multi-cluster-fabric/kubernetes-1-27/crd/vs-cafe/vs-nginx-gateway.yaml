@@ -3,8 +3,8 @@ kind: VirtualServer
 metadata:
   labels:
     f5cr: "true"
-  name: vs-coffee-ab
-  namespace: cafe
+  name: vs-nginx-gateway
+  namespace: nginx-gateway
 spec:
   virtualServerAddress: 10.192.75.121
   persistenceProfile: none
@@ -12,11 +12,9 @@ spec:
   pools:
     - path: /coffee
       service: coffee-svc-a
-      servicePort: 8080
-      weight: 80
+      servicePort: 80
       extendedServiceReferences:
         - clusterName: kubeconfig-1-28
           namespace: cafe
           port: 8080
           serviceName: coffee-svc-b
-          weight: 20

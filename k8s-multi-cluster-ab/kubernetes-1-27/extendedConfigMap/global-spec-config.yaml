@@ -8,7 +8,6 @@ metadata:
 data:
   extendedSpec: |
     mode: ratio
-    localClusterRatio: 2
     highAvailabilityCIS:
       primaryCluster:
         clusterName: kubeconfig-1-27
