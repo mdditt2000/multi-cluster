@@ -2,7 +2,7 @@
 
 This diagram displays how to use Multi-cluster kubernetes using A/B deployments ratios to load balance the traffic across two different Kubernetes clusters. The ratio is weighted to 80% to Kubernetes 1.27 cluster and remaining to the 1.28%.
 
-Demo on YouTube [video]()
+Demo on YouTube [video](https://youtu.be/hd0TIVff2Tc)
 
 ![diagram](https://github.com/mdditt2000/multi-cluster/blob/main/k8s-multi-cluster-ab/diagram/2023-11-17_09-04-51.png)
 
