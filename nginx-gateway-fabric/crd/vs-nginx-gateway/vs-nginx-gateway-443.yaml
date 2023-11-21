@@ -11,5 +11,6 @@ spec:
   hostGroup: "cafe"
   host: cafe.example.com
   pools:
+  - path: /
     service: nginx-gateway
     servicePort: 443
