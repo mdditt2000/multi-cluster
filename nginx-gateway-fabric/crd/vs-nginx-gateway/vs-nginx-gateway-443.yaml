@@ -7,7 +7,8 @@ metadata:
     f5cr: "true"
 spec:
   virtualServerAddress: 10.192.75.121
-  virtualServerPort: 443
+  virtualServerHTTPSPort: 443
+  hostGroup: "cafe"
   pools:
     - path: /
     service: nginx-gateway
