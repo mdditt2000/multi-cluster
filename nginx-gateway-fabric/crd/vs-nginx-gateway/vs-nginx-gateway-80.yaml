@@ -8,6 +8,7 @@ metadata:
 spec:
   virtualServerAddress: 10.192.75.121
   virtualServerPort: 80
+  host: cafe.example.com
   hostGroup: "cafe"
   pools:
   - path: /

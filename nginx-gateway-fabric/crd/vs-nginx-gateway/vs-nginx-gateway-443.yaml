@@ -8,6 +8,8 @@ metadata:
 spec:
   virtualServerAddress: 10.192.75.121
   virtualServerHTTPSPort: 443
+  tlsProfileName: reencrypt-cafe
+  host: cafe.example.com
   hostGroup: "cafe"
   pools:
   - path: /
