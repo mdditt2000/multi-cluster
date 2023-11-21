@@ -10,6 +10,6 @@ spec:
   virtualServerHTTPSPort: 443
   hostGroup: "cafe"
   pools:
-    - path: /
+  - path: /
     service: nginx-gateway
     servicePort: 443
