@@ -7,6 +7,7 @@ metadata:
     f5cr: "true"
 spec:
   virtualServerAddress: 10.192.75.121
+  virtualServerPort: 80
   hostGroup: "cafe"
   persistenceProfile: none
   host: cafe.example.com
