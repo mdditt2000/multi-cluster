@@ -10,7 +10,6 @@ spec:
   virtualServerPort: 80
   hostGroup: "cafe"
   persistenceProfile: none
-  host: cafe.example.com
   pools:
   - path: /
     service: nginx-gateway

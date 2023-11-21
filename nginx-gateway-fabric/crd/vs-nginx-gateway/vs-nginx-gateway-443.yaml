@@ -8,7 +8,7 @@ metadata:
 spec:
   virtualServerAddress: 10.192.75.121
   virtualServerPort: 443
-  host: cafe.example.com
   pools:
+    - path: /
     service: nginx-gateway
     servicePort: 443
