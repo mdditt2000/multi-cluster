@@ -4,11 +4,11 @@ This repo documents how to reduce complexity for your Kubernetes apps with the G
 
 Demo on YouTube [video]()
 
-![diagram]()
+![diagram](https://github.com/mdditt2000/multi-cluster/blob/main/multi-cluster-nginx-gateway-fabric/diagram/2023-12-06_15-03-42.png)
 
 The link walks you through how to install NGINX Gateway Fabric on a generic Kubernetes cluster with some changes
 
-* Install NGINX Gateway Fabric [=docs](https://docs.nginx.com/nginx-gateway-fabric/installation/)
+* Install NGINX Gateway Fabric [docs](https://docs.nginx.com/nginx-gateway-fabric/installation/)
 
 ## Expose NGINX Gateway Fabric
 
