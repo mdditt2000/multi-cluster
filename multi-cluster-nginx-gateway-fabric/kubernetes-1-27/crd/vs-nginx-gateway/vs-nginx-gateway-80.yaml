@@ -12,3 +12,8 @@ spec:
   - path: /
     service: nginx-gateway
     servicePort: 80
+    extendedServiceReferences:
+        - clusterName: kubeconfig-1-28
+          namespace: nginx-gateway
+          port: 80
+          serviceName: nginx-gateway

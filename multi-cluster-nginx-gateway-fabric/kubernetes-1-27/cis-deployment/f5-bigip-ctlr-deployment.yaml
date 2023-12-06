@@ -50,5 +50,7 @@ spec:
               "--custom-resource-mode=true",
               "--as3-validation=true",
               "--log-as3-response=true",
+              "--multi-cluster-mode=standalone",
+              "--extended-spec-configmap=kube-system/global-spec-config",
           ]
       serviceAccountName: bigip-ctlr
